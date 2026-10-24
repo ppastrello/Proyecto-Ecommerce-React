@@ -1,16 +1,16 @@
-import Header from './components/components/Header'; // o './components/Header' según donde tengas App.jsx
+import Navbar from "./components/Navbar";
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <main style={{ padding: '2rem', textAlign: 'center' }}>
-        <h2>¡Bienvenidos a nuestra tienda online!</h2>
-        <p>Próximamente catálogo de productos disponible.</p>
+        <h2>¡Bienvenidos a mi E-commerce!</h2>
+        <p>Catálogo de productos próximamente disponible.</p>
       </main>
     </div>
   );
 }
 
-export default App; 
+export default App;
